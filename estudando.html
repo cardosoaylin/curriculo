@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="estudando.css">
+ 
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Currículo</title>
+ </head>
+
+ <body>
+
+    <header>
+
+        <h1>Aylin Lopes Cardoso</h1>
+        <div class="foto"></div>
+       
+            <span onclick="openmenu()">Menu</span>
+            <script>
+                function openmenu() {
+                  document.getElementById("menu").style.width = "250px";
+                  document.getElementById("dados").style.marginLeft = "250px";
+                  document.getElementById("info").style.width = "250px";
+                }
+                
+              
+                function closemenu() {
+                  document.getElementById("menu").style.width = "0";
+                  document.getElementById("dados").style.marginLeft = "0";
+                  document.getElementById("info").style.marginLeft = "0";
+                }
+              </script>
+            
+            
+    </header>
+
+<div class="corpo">
+
+    <div id="menu" class="menu">
+        <nav>
+            <a href="javascript:void()" class="closemenu" onclick="closemenu()">&times;</a>
+            <a href="#dados">Dados</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#info">Conhecimentos</a>
+            <a href="#">Me Contrate</a>
+            </nav>
+          </div>
+     
+    
+    
+    <section id="dados">
+        
+        <h2>DADOS PESSOAIS</h2>
+        <p>Telefone: (89)981322425</p>
+        <p>Data de nascimento: 30/10/2007</p>
+        <p>Sexo: Feminino</p>
+        <p>Estado Civil: Solteira</p>
+        <p>E-mail: aylinlopescardoso@gmail.com </p>
+  
+    </section>
+    
+    <section id="info">
+        <h2>CONHECIMENTOS EM INFORMÁTICA</h2>
+        <p>Tenho interesse e conhecimento na área de Desenvolvimento Web</p>
+    
+    
+    </section>
+    </section>
+    
+    <section id="habilidades">
+
+        <h2>HABILIDADES</h2>
+    <p> Conto com experiência como Monitora da disciplina Química, ensinando de modo esclarecedor. Cursei uma disciplina sobre Acessibilidade, ao final da disciplina
+        apresentei uma palestra sobre "Acessibilidade para Pessoas com Deficiência Visual". Também tenho um certificado em Operação de Drones.
+        Além, de uma aptidão, em desenvolvimento, para a Língua Espanhola.
+    </p>
+    
+    
+    
+    </section>
+
+
+</div>
+
+</body>
+
+</html>

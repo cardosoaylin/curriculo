@@ -1,0 +1,137 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: auto;
+    
+}
+
+header{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+    padding: 40px 10px;
+    color:white ;
+    margin: auto auto 20px;
+}
+header h1{
+  text-align: center;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: lightblue;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: antiquewhite;
+  }
+  
+  .menu .closemenu {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  header span{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 0;
+   margin-top: 0;
+   font-size: 30px;
+
+  }
+
+
+
+#dados{
+    width: 30%;
+    height: 400px;
+    padding-top: 10px;
+    background-color: lightblue;
+    color: white;
+    margin-left: 10px;
+    margin: 10px 10px 0;
+    text-align: center;
+
+    
+}
+
+#dados p{
+
+  text-align: left;
+  font-size: 25px;
+  padding-left:15px ;
+  line-height: 20px;
+
+}
+
+
+#info{
+    width: 30%;
+    height: 400px;
+    background-color: lightblue;
+    color: white;
+    margin: 10px 10px 0;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+
+#info p
+#habilidades{
+    width: 60%;
+    height: 400px;
+    background-color: lightblue;
+    padding-top: 10px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+   
+   
+}
+h2{
+    text-align: center;
+}
+
+.corpo #habilidades{
+    float: right;
+    margin-top: 0;
+    margin-right: 10px ;
+   
+}
+header .foto{
+    background-color: white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 0;
+    width: 50px;
+    height: 30px;
+
+
+}
