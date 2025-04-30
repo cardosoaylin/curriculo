@@ -4,6 +4,7 @@
  <link rel="stylesheet" href="estudando.css">
  
  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meu Currículo</title>
  </head>
@@ -13,42 +14,55 @@
     <header>
 
         <h1>Aylin Lopes Cardoso</h1>
-        <div class="foto"></div>
        
-            <span onclick="openmenu()">Menu</span>
+            <span onclick="openmenu()"><i id="img"  class="fa-duotone fa-solid fa-bars"></i>Menu</span>
+        
+        
             <script>
                 function openmenu() {
                   document.getElementById("menu").style.width = "250px";
-                  document.getElementById("dados").style.marginLeft = "250px";
-                  document.getElementById("info").style.width = "250px";
+                  document.getElementById("dados").style.marginLeft = "30%";
+                  document.getElementById("habilidades").style.marginLeft = "260px";
+                  document.getElementById("info").style.width = "100%";
+                  document.getElementById("Contrate").style.marginLeft = "260px";
+                  
                 }
                 
               
                 function closemenu() {
                   document.getElementById("menu").style.width = "0";
                   document.getElementById("dados").style.marginLeft = "0";
+                  document.getElementById("habilidades").style.marginLeft = "0";
                   document.getElementById("info").style.marginLeft = "0";
+                  document.getElementById("Contrate").style.marginLeft = "0";
                 }
+                
               </script>
-            
             
     </header>
 
-<div class="corpo">
+    <nav id="lado">
 
-    <div id="menu" class="menu">
-        <nav>
+       <div id="menu" class="menu">
+         
+     
             <a href="javascript:void()" class="closemenu" onclick="closemenu()">&times;</a>
             <a href="#dados">Dados</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#info">Conhecimentos</a>
-            <a href="#">Me Contrate</a>
-            </nav>
-          </div>
+            <a href="#Contrate">Me Contrate</a>
+
+            
+        </div>
+ 
+   </nav>
+
+  
+         
      
+    <div class="corpo">
     
-    
-    <section id="dados">
+        <section id="dados">
         
         <h2>DADOS PESSOAIS</h2>
         <p>Telefone: (89)981322425</p>
@@ -57,30 +71,38 @@
         <p>Estado Civil: Solteira</p>
         <p>E-mail: aylinlopescardoso@gmail.com </p>
   
-    </section>
+        </section>
     
-    <section id="info">
-        <h2>CONHECIMENTOS EM INFORMÁTICA</h2>
-        <p>Tenho interesse e conhecimento na área de Desenvolvimento Web</p>
-    
-    
-    </section>
-    </section>
-    
-    <section id="habilidades">
+        <section id="habilidades">
 
         <h2>HABILIDADES</h2>
-    <p> Conto com experiência como Monitora da disciplina Química, ensinando de modo esclarecedor. Cursei uma disciplina sobre Acessibilidade, ao final da disciplina
+        <p>     Conto com experiência como Monitora da disciplina Química, ensinando de modo esclarecedor. Cursei uma disciplina sobre Acessibilidade, ao final da disciplina
         apresentei uma palestra sobre "Acessibilidade para Pessoas com Deficiência Visual". Também tenho um certificado em Operação de Drones.
         Além, de uma aptidão, em desenvolvimento, para a Língua Espanhola.
-    </p>
+        </p>
+    
+        </section>
+
+    </div>
+
+    <section id="info">
+        <h2>CONHECIMENTOS EM INFORMÁTICA</h2>
+        <p>Tenho interesse e conhecimento na área de Desenvolvimento Web.</p>
     
     
+    </section>
+   
+    
+
+    <section id="Contrate">
+        <h2>Deseja me contratar?</h2>
+        
+           <button>Sim</button>
+
     
     </section>
 
 
-</div>
 
 </body>
 
